@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered Login Container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.login-container {
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 150px;
+}
+
+/* Title */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Password Visibility Toggle */
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-container input {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Forgot Password */
+.forgot-password {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: block;
+    color: black;
+}
+
+/* Sign In Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #333;
+}
+
+/* Sign Up Text */
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}

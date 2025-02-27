@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    width: 320px;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+p {
+    color: #666;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Bottom text */
+.switch-page {
+    margin-top: 15px;
+}
+
+.switch-page a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.switch-page a:hover {
+    text-decoration: underline;
+}

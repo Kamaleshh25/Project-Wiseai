@@ -1,0 +1,491 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Logo Styling */
+.logo {
+    width: 35px; /* Adjust as needed */
+    height: 35px;
+    margin-right: 8px;
+}
+
+/* Brand Styling */
+.brand {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for Wise ai text */
+.brand strong {
+    color: blue;
+}
+
+/* Navbar Styling */
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.tabs::before {
+    content: "";
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 90px;
+    display: flex;
+}
+
+.tabs::before strong {
+    color: blue;
+}
+
+/* Navigation Links */
+.tab-link {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tab-link:hover,
+.tab-link.active {
+    color: black;
+}
+
+/* Login Button */
+.tab-link:last-child {
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.tab-link:last-child:hover {
+    background-color: #333;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+/*Section */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+/* Left Content */
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.content .highlight {
+    color: blue;
+}
+
+.content p {
+    font-size: 1rem;
+    color: gray;
+    margin: 15px 0;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn.black {
+    background: black;
+    color: white;
+}
+
+.btn.black:hover {
+    background: #333;
+}
+
+.btn.blue {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn.blue:hover {
+    background: darkblue;
+}
+
+/* Right Image */
+
+.frontimage {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.frontimage img {
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+/* Fix layout issue */
+.our-team-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 200px; /* Moves it down */
+    max-width: 1000px;
+    margin-left: 100px;
+
+}
+
+/* Center and style */
+.our-team {
+    max-width: 900px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1000px;
+}
+
+/* Heading Style */
+.our-team h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Text Alignment */
+.our-team p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+/* Incubation Section */
+.incubation-text {
+    margin-top: 150px;
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+}
+
+/* Logos Container */
+.logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    margin-top: 20px;
+}
+
+.logos-container img {
+    height: 100px;
+}
+
+/* Statistic Section */
+.statistic {
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    margin: 30px ;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.highlight {
+    color: #6366f1; /* Purple */
+    margin-top: 100px;
+}
+
+/* Information Section */
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.info-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.info-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 20px;
+    color: #080808;
+    font: bold;
+}
+
+/* Footer */
+.footer-text {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #777;
+    text-align: center;
+}
+
+
+
+
+/* Features Section */
+.features-section {
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+/* Heading */
+.features-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: blue;
+}
+
+/* Subtext */
+.subtext {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+/* Feature Box */
+.feature {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.feature i {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.feature h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.feature p {
+    margin-top: 5px;
+    color: #666;
+}
+
+
+
+/* CTA Section */
+.cta-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 270px;
+    margin-top: 300px;
+}
+
+/* Heading */
+.cta-section h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Subtext */
+.cta-section p {
+    color: #b0b3b8;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.cta-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Styling */
+.advisors-section {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.advisors-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Advisors Container */
+.advisors-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Advisor Card */
+.advisor-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Advisor Profile Picture */
+.advisor-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Advisor Info */
+.advisor-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.advisor-university {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.advisor-info p {
+    font-size: 14px;
+    color: #444;
+    margin: 5px 0;
+}
+
+
+.lastbro{
+    margin-left: 50px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+
+}
+.lastbro h2{
+    color: #080808;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.lastbro h3{
+    color: #080808;
+    font-size: 20px;
+    
+}

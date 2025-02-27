@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title > WISE AI</title>
+    <link rel="icon" href="wise ai logo_blue.png">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-link active" onclick="openTab(event, 'Home')">
+            <img src="wise ai logo_blue.png" alt="Wise AI Logo" class="logo"> <!-- Add your logo here -->
+            <span class="brand">Wise <strong>ai</strong></span>
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'Features')"> Features </button>
+        <button class="tab-link" onclick="openTab(event, 'Our Team')"> Our Team </button>
+        <button class="tab-link" onclick="loginpage()"> Login </button>
+    </div>
+
+    <div id = "Home" class="section">
+        <div class="content">
+            <h1>TransformingElderly Carewith<span class="highlight">AI-Powered</span> PatientMonitoring</h1>
+            <p>We empower caregivers to deliver personalized, proactive care with intelligent monitoring. 
+               Save time, reduce costs, and ensure the highest quality care for every resident.</p>
+            <div class="buttons">
+                <button onclick="loginpage()" class="btn black">View Demo →</button>
+                <button onclick="forms()" class="btn blue">Interest Form →</button>
+            </div>
+        </div>
+        <div class="frontimage">
+            <img src="front image home image.jpg" alt="Elderly Care">
+        </div>
+        <br>
+
+    </div>
+
+    <section class="incubation-section">
+        <p class="incubation-text">Incubated at</p>
+        <div class="logos-container">
+            <img src="Mit_medialab_logo.png" alt="MIT Media Lab">
+            <img src="Harvard_University_logo.svg.png" alt="Harvard Innovation Lab">
+            <img src="mit_lockup_std-three-line_rgb_black.avif" alt="MIT">
+            <img src="HI.webp" alt="Harvard University">
+        </div>
+
+        <div class="statistic">
+            <span class="highlight">46.8%</span> is the median annual avoidable resident turnover in facilities.
+        </div>
+
+        <div class="info-section">
+            <div class="info-item">
+                <img src="Comment.png" alt="Chat Icon">
+                <p>Overwhelmed by patient monitoring demands?</p>
+            </div>
+            <div class="info-item">
+                <img src="BOOK.png" alt="Document Icon">
+                <p>Dealing with staff shortage or burnout?</p>
+            </div>
+            <div class="info-item">
+                <img src="Medical-icon.png" alt="Medical Icon">
+                <p>Worried about missing critical care needs?</p>
+            </div>
+        </div>
+
+        <p class="footer-text">↓ there is an easier way</p>
+    </section>
+
+
+    <section class="features-section">
+        <h1>Empower Your Care Team with <span class="highlight">Intelligent Technology</span></h1>
+        <p class="subtext">Our AI-powered platform helps you deliver exceptional care while reducing staff workload</p>
+        
+        <div class="features-grid">
+            <div class="feature">
+                <i class="fas fa-heartbeat"></i>
+                <div>
+                    <h3>Real-time Patient Monitoring</h3>
+                    <p>Track vital signs, mobility, sleep patterns and more with our advanced AI monitoring system. Get instant alerts for any concerning changes.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-lightbulb"></i>
+                <div>
+                    <h3>Smart Care Recommendations</h3>
+                    <p>Receive AI-powered care suggestions based on patient data trends and medical best practices to provide optimal personalized care.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-user-circle"></i>
+                <div>
+                    <h3>Comprehensive Patient Profiles</h3>
+                    <p>Access detailed patient information, care history, and progress reports in one centralized dashboard for better care coordination.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-comments"></i>
+                <div>
+                    <h3>Team Communication</h3>
+                    <p>Seamlessly coordinate care with your entire healthcare team through secure messaging and real-time updates.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-file-alt"></i>
+                <div>
+                    <h3>Automated Documentation</h3>
+                    <p>Save time with automated care logs and incident reports that help maintain compliance and reduce administrative burden.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <div>
+                    <h3>Analytics & Insights</h3>
+                    <p>Make data-driven care decisions with detailed analytics on patient health trends, care quality metrics and operational efficiency.</p>
+                </div>
+            </div>
+        </div>
+        <div id = "Our Team" class="our-team-container">
+            <div class="our-team sticky-team">
+                <h2>Our Team</h2>
+                <p>Wise AI is led by a diverse team from Harvard, MIT, and Stanford with expertise in healthcare, AI, and technology. 
+                   With experience in venture building, digital health, and AI research at top global companies, they are committed to 
+                   transforming elderly care with innovative, cost-effective AI solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="advisors-section">
+        <h2>Our Advisors</h2>
+        <div class="advisors-container">
+            <div class="advisor-card">
+                <img src="chris.jpg" alt="Chris Pease">
+                <div class="advisor-info">
+                    <h3>Chris Pease</h3>
+                    <p class="advisor-university">Massachusetts Institute of Technology</p>
+                    <p>Serial Tech Entrepreneur, Agentic AI & AdTech Investor. MIT Media Lab Camera Culture Researcher, Leader at Decentralized AI Hub, Agentic AI Group.</p>
+                </div>
+            </div>
+            <div class="advisor-card">
+                <img src="santaniu.jpg" alt="Santanu Bhattacharya">
+                <div class="advisor-info">
+                    <h3>Santanu Bhattacharya</h3>
+                    <p class="advisor-university">Massachusetts Institute of Technology</p>
+                    <p>AI & Data Science Leader, Serial Entrepreneur. Former Chief Technologist at NatWest Bank, Chief Data Scientist at Airtel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="cta-section">
+        <h1>Ready to Transform Your Patient Care?</h1>
+        <p>Discover how Wise.ai can help caregivers provide proactive, personalized care</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeUsp3LTGHmtVftHm4oCLF1m-FJKX0BxxastwXZlDk2TTknw/viewform" class="cta-button">Interest Form →</a>
+    </section>
+
+    <section class = "lastbro">
+        <img src = "wise ai logo_blue.png" class="img">
+        <h2> Wise ai</h2>
+        <h3>Copyright © 2025</h3>
+        <h3>All rights reserved</h3>
+
+
+    </section>
+
+
+    <div id="login in" class="tab-content">
+        <section class="content">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us for more details about our AI-powered elderly care solutions.</p>
+        </section>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            // Hide all tab content
+            var tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+
+            // Remove the active class from all tab links
+            var tabLinks = document.querySelectorAll('.tab-link');
+            tabLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            // Show the clicked tab's content
+            document.getElementById(tabName).classList.add('active');
+
+            // Add the active class to the clicked tab link
+            evt.currentTarget.classList.add('active');
+        }
+        function loginpage(){
+            window.location.href='login.html'
+        }
+        function forms(){
+            window.location.href="https://docs.google.com/forms/d/e/1FAIpQLSdeUsp3LTGHmtVftHm4oCLF1m-FJKX0BxxastwXZlDk2TTknw/viewform"
+        }
+
+        // Set the default active tab
+        document.querySelector('.tab-link').click();
+    </script>
+</body>
+</html>
